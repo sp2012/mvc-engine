@@ -1,9 +1,6 @@
 {
     "0": "php_files/classes/",
-    "1": "php_files/functions/",
-    "2": "php_files/MVC/controllers/",
-    "3": "php_files/MVC/models/",
-    "4": "php_files/MVC/templates/",
-    "5": "php_files/MVC/views/",
-    "6": "php_files/mvc_engine/classes_of_mvc_engine/"
+    "1": "php_files/MVC/controllers/",
+    "2": "php_files/MVC/models/",
+    "3": "php_files/MVC/views/"
 }
