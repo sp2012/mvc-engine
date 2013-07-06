@@ -10,25 +10,26 @@
 function run($all_pages)
 {
 
-    require "php_files/mvc_engine/functions_of_mvc_engine/autoload.php";
+    require "../mvc_engine/functions_of_mvc_engine/autoload.php";
 
     if(isset($_GET['page']) AND $_GET['page'] !== "")
     {
 
 
-        $session_object = new Sessions;
+        $sessions_object = new Sessions;
 
         $headers_object = new Headers();
 
         $security_object = new Security;
 
+        
         $page_selected = $_GET['page'];
 
 
-        require "php_files/mvc_engine/include_procedural_code_of_mvc_engine/routes_processor.php";
+        require "../mvc_engine/include_procedural_code_of_mvc_engine/routes_processor.php";
 
 
-        require "php_files/mvc_engine/include_procedural_code_of_mvc_engine/set_pages.php";
+        require "../mvc_engine/include_procedural_code_of_mvc_engine/set_pages.php";
 
 
     }

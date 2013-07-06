@@ -34,17 +34,17 @@ class Security
         foreach($_COOKIE as $key => $value)
         {
 
-            $_COOKIE = $this->sanitizeDataFromUserInput($value);
+            $_COOKIE[$key] = $this->sanitizeDataFromUserInput($value);
 
         }
 
     }
 
-    private function htmlspecialchars_deep($mixed, $quote_style = ENT_QUOTES, $charset = 'UTF-8')
+    private static function htmlspecialchars_deep($mixed, $quote_style = ENT_QUOTES, $charset = 'UTF-8')
     {
         if (is_array($mixed)) {
             foreach($mixed as $key => $value) {
-                $mixed[$key] = $this->htmlspecialchars_deep($value, $quote_style, $charset);
+                $mixed[$key] = self::htmlspecialchars_deep($value, $quote_style, $charset);
             }
         } elseif (is_string($mixed)) {
             $mixed = htmlspecialchars(htmlspecialchars_decode($mixed, $quote_style), $quote_style, $charset);
@@ -52,14 +52,14 @@ class Security
         return $mixed;
     }
 
-    private function escapeStringForInputInDatabase($string)
+    private static function escapeStringForInputInDatabase($string)
     {
 
         return $string;
 
     }
 
-    public function sanitizeDataFromUserInput($user_input_data)
+    public static function sanitizeDataFromUserInput($user_input_data)
     {
 
         if(get_magic_quotes_gpc())
@@ -71,16 +71,16 @@ class Security
         $user_input_data = strip_tags($user_input_data);
 
         //Anti SQL injection, replace with escape function for the database you use, like mysqli_real_escape for MySQL.
-        $user_input_data = $this->escapeStringForInputInDatabase($user_input_data);
+        $user_input_data = self::escapeStringForInputInDatabase($user_input_data);
 
         return $user_input_data;
 
     }
 
-    public function sanitizeSystemDataForHTMLOutput($data_from_system)
+    public static function sanitizeSystemDataForHTMLOutput($data_from_system)
     {
 
-        $data_from_system = $this->htmlspecialchars_deep($data_from_system);
+        $data_from_system = self::htmlspecialchars_deep($data_from_system);
 
         return $data_from_system;
 

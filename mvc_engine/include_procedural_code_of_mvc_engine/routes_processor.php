@@ -11,7 +11,7 @@ $routes = array();
 
 $json_triads_object = new JSON();
 
-$routes =$json_triads_object->jsonDecodeToArray(".././configuration_files/routes.json");
+$routes =$json_triads_object->jsonDecodeToArray(".././user_configuration_files/routes.json");
 
 
 foreach($routes as $page => $triads)

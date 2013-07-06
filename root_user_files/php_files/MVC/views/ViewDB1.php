@@ -40,6 +40,8 @@ class ViewDB1 extends ViewDB
         $data[] = $this->model1->arr;
         $data[] = $this->model2->arr;
 
+        $data = Security::sanitizeSystemDataForHTMLOutput($data);
+
         require $this->path_to_templates . $this->template_file3;
 
     }

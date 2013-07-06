@@ -11,7 +11,7 @@
 function __autoload($class_name)
 {
 
-    require_once "php_files/mvc_engine/classes_of_mvc_engine/JSON.php";
+    require_once "../mvc_engine/classes_of_mvc_engine/JSON.php";
 
     $array_paths = array();
 
@@ -19,12 +19,12 @@ function __autoload($class_name)
 
     //Build autoload paths for classes of the mvc engine.
     $array_paths_of_classes_of_mvc_engine = $json_paths_classes_of_mvc_engine_object->jsonDecodeToArray
-        ("php_files/mvc_engine/configuration_files/autoload_paths_of_mvc_engine.json");
+        ("../mvc_engine/configuration_files/autoload_paths_of_mvc_engine.json");
 
     // Build autoload paths for user created classes.
     $json_paths_user_classes_object = new JSON;
 
-    $array_paths_of_classes_of_the_user = $json_paths_user_classes_object->jsonDecodeToArray(".././configuration_files/autoload_paths.json");
+    $array_paths_of_classes_of_the_user = $json_paths_user_classes_object->jsonDecodeToArray(".././user_configuration_files/autoload_paths.json");
 
     $array_paths = array_merge($array_paths_of_classes_of_mvc_engine, $array_paths_of_classes_of_the_user);
 
