@@ -1,0 +1,25 @@
+{
+    "main": [
+        {
+            "model": ["ModelDB1", "ModelDB2"],
+            "view": ["ViewDB1", "ViewDB2"],
+            "controller": "ControllerDB"
+        },
+        {
+            "model": ["ModelMain"],
+            "view": ["ViewMain"],
+            "controller": "ControllerMain"
+        }
+    ], "display": [
+    {
+        "model": ["ModelDB1", "ModelDB2"],
+        "view": ["ViewDB1", "ViewDB2"],
+        "controller": "ControllerDB"
+    }
+], "show-all": [
+    {
+        "model": ["ModelMain"],
+        "view": ["ViewMain"],
+        "controller": "ControllerMain"
+    }
+]}
