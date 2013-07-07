@@ -28,6 +28,14 @@ function run()
     $index_php_position_in_folder_hierarchy = $json_index_php_position_in_folder_hierarchy_object->jsonDecodeToArray
         (".././user_configuration_files/index.php_position_in_folder_hierarchy.json");
 
+    $url_path_to_root = array();
+
+    $json_url_path_to_root_object = new JSON();
+
+    $url_path_to_root = $json_url_path_to_root_object->jsonDecodeToArray
+        (".././user_configuration_files/URL_path_to_root.json");
+
+
     require "../mvc_engine/include_procedural_code_of_mvc_engine/URL_processor.php";
 
     require "../mvc_engine/include_procedural_code_of_mvc_engine/build_root_path_var.php";

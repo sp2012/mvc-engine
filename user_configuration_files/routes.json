@@ -2,24 +2,24 @@
     "main": [
         {
             "model": ["ModelDB1", "ModelDB2"],
-            "view": ["ViewDB1", "ViewDB2"],
+            "view": ["ViewDB1,ALL", "ViewDB2,ModelDB1,ModelDB2", "ViewDB3,ModelDB2"],
             "controller": "ControllerDB"
         },
         {
             "model": ["ModelMain"],
-            "view": ["ViewMain"],
+            "view": ["ViewMain,ALL"],
             "controller": "ControllerMain"
         }
     ], "display": [
     {
         "model": ["ModelDB1", "ModelDB2"],
-        "view": ["ViewDB1", "ViewDB2"],
+        "view": ["ViewDB1,ALL", "ViewDB2,ALL"],
         "controller": "ControllerDB"
     }
 ], "show-all": [
     {
         "model": ["ModelMain"],
-        "view": ["ViewMain"],
+        "view": ["ViewMain,ALL"],
         "controller": "ControllerMain"
     }
 ]}

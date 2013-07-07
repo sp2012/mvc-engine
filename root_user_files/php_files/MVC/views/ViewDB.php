@@ -18,6 +18,8 @@ class ViewDB extends View
 
     protected $template_file4;
 
+    protected $template_file5;
+
     public function __construct()
     {
         parent::__construct();
@@ -29,6 +31,8 @@ class ViewDB extends View
         $this->template_file3 = "ModelDB2.3.template.php";
 
         $this->template_file4 = "ModelDB.4.template.php";
+
+        $this->template_file5 = "ModelDB.5.template.php";
     }
 
 }

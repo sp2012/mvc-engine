@@ -48,16 +48,64 @@ foreach($routes as $page => $triads)
                 if($key === "view")
                 {
 
+
+
                     foreach($components as $component)
                     {
+
+                        $model_args_chosen = array();
+
+                        $models_args_view = $model_args;
+
+                        $modifier = explode(",", $component);
+
+                        $component = $modifier[0];
+
+                        // ALL is enables, View class will get all Models.
+                        if(in_array("ALL", $modifier))
+                        {
+                            $model_args_chosen = $models_args_view;
+                        }
+
+                        // not ALL enabled, View will only get certain models.
+                        $id = 0;
+                        if(!in_array("ALL", $modifier))
+                        {
+                            foreach($modifier as $modifier_model_name)
+                            {
+                                if($id > 0)
+                                {
+
+                                    foreach($model_args as $model_arg)
+                                    {
+
+                                        if($modifier_model_name === get_class($model_arg))
+                                        {
+                                            $model_args_chosen[] = $model_arg;
+
+                                        }
+
+                                    }
+                                }
+
+                                $id++;
+
+                            }
+
+
+                        }
+
+                        $models_args_view  = $model_args_chosen;
 
                         $dynamic_name_view = $component . "_object";
 
                         $reflection = new ReflectionClass($component);
 
-                        $$dynamic_name_view = $reflection->newInstanceArgs($model_args);
+                        $$dynamic_name_view = $reflection->newInstanceArgs($models_args_view );
 
                         $$dynamic_name_view->root_path = $root_path;
+
+                        $$dynamic_name_view->url_path_to_root = "http://" . $url_path_to_root[0];
 
 
 

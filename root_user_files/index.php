@@ -36,9 +36,16 @@ from your templates when you include files like JavaScript scripts, css files or
 your Views, you can add a property to your View objects e.g. ViewMain_object->root_path =$root_path to get the path
 to root_user_files.
 
+Your automatically instantiated View objects also acquire a property url_path_to_root that is generated from user
+configured json file in the user_configuration_files. You can use this property in your templates
+as $this->url_path_to_root to create links with anchor <a> html tag.
+
 Template file names should be saved in properties in your View classes. If you have many template names you want
 to use in many View classes, put them in a View parent class that will extend View. Then in your View classes
 extend the View parent class you made.
+
+In json user configuration file routes.json, pass a , + the name of the Models you want you View class to have or ALL
+if you want your View class to get all Models for that triad.
 
 */
 

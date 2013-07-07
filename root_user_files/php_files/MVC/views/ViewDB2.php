@@ -15,7 +15,7 @@ class ViewDB2 extends ViewDB
     private $model2;
 
 
-    public function __construct(ModelDB1 $model1, ModelDB2 $model2)
+    public function __construct(ModelDB1 $model1, ModelDB2 $model2   )
     {
         parent::__construct();
 

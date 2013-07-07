@@ -23,3 +23,6 @@ $ViewDB2_object->output3();
 $ControllerMain_object->update($get_variables_object->get_var[2]);
 
 $ViewMain_object->output();
+
+$ViewDB3_object->output();
+
