@@ -16,6 +16,13 @@ class Security
 
     public function __construct()
     {
+        // Generic automatic sanitation.
+        $this->automaticSanitation();
+    }
+
+
+    private function automaticSanitation()
+    {
 
         foreach($_POST as $key => $value)
         {
@@ -35,6 +42,61 @@ class Security
         {
 
             $_COOKIE[$key] = $this->sanitizeDataFromUserInput($value);
+
+        }
+
+        $_SERVER['REQUEST_URI'] = $this->sanitizeDataFromUserInput($_SERVER['REQUEST_URI']);
+
+    }
+
+    /*
+     * Must run before session_start().
+     */
+    public function antiSessionHijackingPartA()
+    {
+        //This will tell PHP not to include the identifier in the URL, and not to read the URL for identifiers.
+        ini_set('session.use_trans_sid', false);
+        //Makes JavaScript to not have access to the cookies of the PHP Sessions.
+        ini_set('session.cookie_httponly', true);
+        //It prevents attacks passing session id in URL.
+        ini_set('session.use_only_cookies', true);
+
+    }
+
+    /*
+     * Must run after session_start();
+     */
+    public function antiSessionHijackingPartB()
+    {
+
+        // Using the user's IP.
+        if(!isset($_SESSION['legit_user_ip']))
+        {
+
+            $_SESSION['legit_user_ip'] = $_SERVER['REMOTE_ADDR'];
+
+        }
+
+        if($_SESSION['legit_user_ip'] !== $_SERVER['REMOTE_ADDR'])
+        {
+            session_unset();
+            session_destroy();
+        }
+
+
+        // Using the user's user agent (Browser, with its vendor and version).
+        if(!isset($_SESSION['legit_user_agent']))
+        {
+
+            $_SESSION['legit_user_agent'] = $_SERVER['HTTP_USER_AGENT'];
+
+        }
+
+        if($_SESSION['legit_user_agent'] !== $_SERVER['HTTP_USER_AGENT'])
+        {
+
+            session_unset();
+            session_destroy();
 
         }
 

@@ -20,5 +20,9 @@ class ControllerMain
 
     }
 
+    public function update($user_input)
+    {
+        $this->model->number = $user_input;
+    }
 
 }

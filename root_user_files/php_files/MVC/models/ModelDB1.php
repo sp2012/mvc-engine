@@ -21,9 +21,15 @@ class ModelDB1
 
         $this->arr = array ("Value1 <br/>& array.", "Value2");
 
+        $this->arr = Security::sanitizeSystemDataForHTMLOutput($this->arr);
+
         $this->string1 = "Value3";
 
+        $this->string1 = Security::sanitizeSystemDataForHTMLOutput($this->string1);
+
         $this->number = 5;
+
+        $this->number = Security::sanitizeSystemDataForHTMLOutput($this->number);
 
     }
 

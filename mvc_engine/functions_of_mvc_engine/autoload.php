@@ -24,7 +24,8 @@ function __autoload($class_name)
     // Build autoload paths for user created classes.
     $json_paths_user_classes_object = new JSON;
 
-    $array_paths_of_classes_of_the_user = $json_paths_user_classes_object->jsonDecodeToArray(".././user_configuration_files/autoload_paths.json");
+    $array_paths_of_classes_of_the_user = $json_paths_user_classes_object->jsonDecodeToArray
+        (".././user_configuration_files/autoload_paths.json");
 
     $array_paths = array_merge($array_paths_of_classes_of_mvc_engine, $array_paths_of_classes_of_the_user);
 
@@ -34,7 +35,7 @@ function __autoload($class_name)
         if(file_exists($path . $class_name . ".php"))
         {
 
-            require $path . $class_name . ".php";
+            require_once $path . $class_name . ".php";
 
         }
 

@@ -28,6 +28,8 @@ class ViewMain extends View
     {
         $data = $this->model->string;
 
+        $data2 = $this->model->number;
+
         require $this->path_to_templates . $this->template_file;
     }
 

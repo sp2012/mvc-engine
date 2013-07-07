@@ -57,7 +57,7 @@ foreach($routes as $page => $triads)
 
                         $$dynamic_name_view = $reflection->newInstanceArgs($model_args);
 
-
+                        $$dynamic_name_view->root_path = $root_path;
 
 
 

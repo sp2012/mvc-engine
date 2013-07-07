@@ -20,10 +20,10 @@ class ControllerDB
 
     }
 
-    public function update()
+    public function update($user_input)
     {
 
-        $this->model1->string1 = "Hi from controller.";
+        $this->model1->string1 = $user_input;
 
     }
 

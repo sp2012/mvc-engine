@@ -7,8 +7,6 @@
  * To change this template use File | Settings | File Templates.
  */
 
-$pages_array = explode(",", $all_pages);
-
 foreach($pages_array as $page)
 {
 

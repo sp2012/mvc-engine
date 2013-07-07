@@ -12,11 +12,14 @@ class ModelMain
 
     public $string;
 
+    public $number;
+
     public function __construct()
     {
 
         $this->string = "model";
 
+        $this->number = 5;
     }
 
 }
