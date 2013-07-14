@@ -1,0 +1,41 @@
+RewriteEngine on
+
+<IfModule mod_rewrite.c>
+#Index.php does not need to be in the URL.
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+</IfModule>
+
+# This is core apache module, always available.
+
+# For security reason only index.php can run from the web.
+
+#Dissallow php files.
+<Files *.php>
+    Order Deny,Allow
+    Deny from all
+    Allow from 127.0.0.1
+</Files>
+
+# Then allow only index.php to run from the web.
+<Files index.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+# Disallow html files (that are used as templates) and disallow cache files
+
+<Files *.html>
+    Order Deny,Allow
+    Deny from all
+    Allow from 127.0.0.1
+</Files>
+
+<Files *.cache>
+    Order Deny,Allow
+    Deny from all
+    Allow from 127.0.0.1
+</Files>

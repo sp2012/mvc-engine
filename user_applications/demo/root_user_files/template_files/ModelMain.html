@@ -1,0 +1,43 @@
+<div style='border: solid 3; border-color: blue;'>
+    <h1>Nested Templates Support</h1>
+
+    <p><?=$placeholder_ModelDB1_1?></p>
+    <p><?=$placeholder_ModelDB1_2?></p>
+    <p><?=$placeholder_ModelDB2_3?></p>
+
+    <p><?=$placeholder_ModelDB2_3_b?></p>
+
+    <p><?=$placeholder_ModelDB1_1_b?></p>
+    <p><?=$placeholder_ModelDB1_2_b?></p>
+
+    <div style='border: solid 1; border-color: maroon;'>
+    <p><?=$placeholder_ModelDB_4?></p>
+    </div>
+
+    <div  style='border: solid 5; border-color: #0099FF;'>
+    <?=$placeholder_ModelDB_5?>
+    </div>
+
+    <div style='border: solid 1;border-color: yellow;'><?=$placeholder_mother?></div>
+
+
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->template_vars->root_path; ?>css/body.css">
+
+
+    <hr/>
+    <table><tr><td>indentation test</td></tr></table>
+    <i><?=$view_main_string?></i><br/>
+    <i><?=$view_main_number?></i>
+
+    <a href="<?=$this->template_vars->url_path_to_root?>main">main</a>
+    <a href="<?=$this->template_vars->url_path_to_root?>display">display</a>
+    <a href="<?=$this->template_vars->url_path_to_root;?>show-all">show-all</a>
+
+    <script type="text/javascript" src="<?=$this->template_vars->root_path?><?=$this->template_vars->concatenated_javascript_file?>"></script>
+    <link rel="stylesheet" type="text/css" href="<?=$this->template_vars->root_path?><?=$this->template_vars->concatenated_css_file?>">
+
+    <img src="<?=$this->template_vars->root_path?>images/image.jpg" />
+    <script type="text/javascript" src="<?=$this->template_vars->root_path?>js_files/js_custom/javascript.js"></script>
+
+
+</div>

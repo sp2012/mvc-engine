@@ -1,0 +1,16 @@
+{
+
+    "default_page": "main",
+    "index.php_position_in_folder_hierarchy_of_website": 5,
+    "URL_path_to_root": "localhost/mvc_engine/user_applications/demo/root_user_files",
+    "enable_all_error_reporting": "1",
+    "enable_zlib.output_compression": "1",
+    "log_file_name": "application",
+    "project_name": "demo",
+    "enable_tidy_html5_validation": "0",
+    "enable_show_auto_created_variables_and_methods" : "1",
+    "path_to_user_functions" : "php_files/user_functions",
+    "path_to_user_include_php_files" : "php_files/user_include_procedural_code_php_files"
+
+
+}

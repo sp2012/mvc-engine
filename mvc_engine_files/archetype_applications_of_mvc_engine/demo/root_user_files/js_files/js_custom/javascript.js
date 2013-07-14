@@ -1,0 +1,1 @@
+alert(window['url_path_to_root']);

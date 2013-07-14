@@ -1,0 +1,4 @@
+{
+    "mvc_engine_classes_autoload_paths1": "../../../mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_it_self",
+    "mvc_engine_classes_autoload_paths2": "../../../mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_[place_modules_here]_for_the_users"
+}

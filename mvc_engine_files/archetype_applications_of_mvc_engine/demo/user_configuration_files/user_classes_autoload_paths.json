@@ -1,0 +1,6 @@
+{
+    "path1": "php_files/user_classes",
+    "path2": "php_files/MVC/controllers",
+    "path3": "php_files/MVC/models",
+    "path4": "php_files/MVC/views"
+}

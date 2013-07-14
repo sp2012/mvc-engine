@@ -1,0 +1,8 @@
+{
+    "version_number": "4",
+    "source_javascript_files": ["js_files/js_third_party/jquery-1.10.2.min.js", "js_files/js_custom/javascript.js"],
+    "destination_folder_javascript": "load_concatenated_javascript_files_from_the_one_javascript_file",
+    "source_css_files": ["css/main.css"],
+    "destination_folder_css": "load_concatenated_css_files_from_the_one_css_file"
+
+}
