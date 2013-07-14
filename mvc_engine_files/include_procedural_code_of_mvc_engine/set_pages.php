@@ -66,13 +66,15 @@ if($website_settings_array[7] != false)
 
 $tidy = tidy_parse_string(HTML::$gather_all_html, $options, 'utf8');
 
-echo "<div style='font-size: 12px; color: black; background-color: silver; border: 1 solid;'><pre>";
+echo "<div style='font-size: 12px; color: black; background-color: silver; border: 1 solid;'>";
 
-echo tidy_error_count($tidy) . "<br/>";
+$tidy_data = tidy_error_count($tidy);
 
-echo $tidy->errorBuffer;
+$tidy_data .= $tidy->errorBuffer;
 
-echo "</pre></div>";
+echo '' . $tidy_data . '';
+
+echo "</div>";
 
 echo "<div><pre>";
 
@@ -81,7 +83,7 @@ echo "<div><pre>";
     $geshi->enable_line_numbers(GESHI_FANCY_LINE_NUMBERS);
     echo $geshi->parse_code();
 
-    echo "</div>";
+    echo "</pre></div>";
 }
 
 else

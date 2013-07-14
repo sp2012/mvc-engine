@@ -81,23 +81,34 @@ public function update()
 public function create()
 {
 
-    if(!file_exists( $this->destination_directory))
+    if($this->project_name != "")
     {
 
-        echo "Attempting to create project. Directory does not exist.\n";
-        echo "Proceeding to creating it.\n";
+        if(!file_exists( $this->destination_directory))
+        {
 
-        $this->recurse_copy($this->original_directory, $this->destination_directory);
+            echo "Attempting to create project. Directory does not exist.\n";
+            echo "Proceeding to creating it.\n";
 
-        echo "Done creating.\n";
+            $this->recurse_copy($this->original_directory, $this->destination_directory);
 
-        return true;
+            echo "Done creating.\n";
+
+            return true;
+        }
+        else
+        {
+
+            echo "Attempting to create project. Directory exists.\n";
+            echo "Aborting.\n";
+
+        }
+
     }
     else
     {
 
-        echo "Attempting to create project. Directory exists.\n";
-        echo "Aborting.\n";
+            echo "You have not given Project name, try again later.";
 
     }
 
@@ -107,25 +118,40 @@ public function create()
 public function delete()
 {
 
-    if(file_exists($this->destination_directory))
+    if($this->project_name != "")
     {
 
-        echo "Attempting to delete project. Directory exists.\n";
-        echo "Proceeding to deleting it.\n";
 
-        $this->delete_dir($this->destination_directory);
+        if(file_exists($this->destination_directory))
+        {
 
-        echo "Done deleting.\n";
+            echo "Attempting to delete project. Directory exists.\n";
+            echo "Proceeding to deleting it.\n";
 
-        return true;
+            $this->delete_dir($this->destination_directory);
+
+            echo "Done deleting.\n";
+
+            return true;
+        }
+        else
+        {
+
+            echo "Attempting to delete project. Directory does not exist.\n";
+            echo "Aborting.\n";
+
+        }
+
+
     }
     else
+
     {
 
-        echo "Attempting to delete project. Directory does not exist.\n";
-        echo "Aborting.\n";
+        echo "You have not given Project name, try again later.";
 
     }
+
 
 }
 

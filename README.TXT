@@ -1,3 +1,6 @@
 MVC Engine.
 
-PHP Framework By Solon Papageorgiou, Nicosia, Cyprus.
+PHP Framework.
+
+By Solon Polykarpou Papageorgiou,
+Nicosia, Cyprus.

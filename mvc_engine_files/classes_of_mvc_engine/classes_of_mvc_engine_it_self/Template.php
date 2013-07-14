@@ -19,7 +19,7 @@ class Template
 
         $this->template_vars = $template_vars;
 
-        var_dump($this->template_vars->url_path_to_root);
+        
 
     }
 
