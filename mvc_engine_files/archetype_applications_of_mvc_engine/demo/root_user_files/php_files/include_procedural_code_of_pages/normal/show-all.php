@@ -27,7 +27,7 @@ $general_object->content_for_pages['object_phplivex']->Run(); // Must be called 
 $ViewMain_object->output_page_show_all();
 
 
-echo "TEST!!";
+echo "TEST!!!";
 
 
 
