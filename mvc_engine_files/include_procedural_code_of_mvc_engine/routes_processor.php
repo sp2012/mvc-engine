@@ -21,7 +21,7 @@ foreach($routes as $page => $triads)
     {
 
 
-        $dynamic_name_template_vars = "template_vars_object";
+        $dynamic_name_template_vars = "template_vars";
 
         $$dynamic_name_template_vars = new TemplateVars();
 
@@ -73,9 +73,8 @@ foreach($routes as $page => $triads)
 
                         $dynamic_name_model = $component . "_object";
 
-                        LiveHelp::$gather_triads_MVC[$triad_index][] = $dynamic_name_model;
-
-                        $$dynamic_name_model = new $component;
+                        $$dynamic_name_model = $create_remember_dynamically_added_variables_and_methods->createRememberClass
+                        ($component, $triad_index);
 
                         $model_args[] = $$dynamic_name_model;
 
@@ -142,9 +141,8 @@ foreach($routes as $page => $triads)
 
                         $dynamic_name_view = $component . "_object";
 
-                        LiveHelp::$gather_triads_MVC[$triad_index][] = $dynamic_name_view;
-
-                        $reflection = new ReflectionClass($component);
+                        $reflection = $create_remember_dynamically_added_variables_and_methods->reflectionCreateRememberClass
+                            ($component, $triad_index);
 
                         $$dynamic_name_view = $reflection->newInstanceArgs($models_args_view );
 
@@ -169,9 +167,9 @@ foreach($routes as $page => $triads)
 
                     $dynamic_name_controller = $components . "_object";
 
-                    LiveHelp::$gather_triads_MVC[$triad_index][] = $dynamic_name_controller;
 
-                    $reflection = new ReflectionClass($components);
+                    $reflection = $create_remember_dynamically_added_variables_and_methods->reflectionCreateRememberClass
+                        ($components, $triad_index);
 
                     $$dynamic_name_controller = $reflection->newInstanceArgs($model_args);
 
@@ -186,7 +184,9 @@ foreach($routes as $page => $triads)
 
 
 
-                }
+                    }
+
+
             }
 
             $triad_index++;

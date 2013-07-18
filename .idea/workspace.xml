@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" name="Default" comment="" />
+    <list default="true" id="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_it_self/MetaProgramming.php" afterPath="$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_it_self/MetaProgramming.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/models/ModelDB1.php" afterPath="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/models/ModelDB1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/models/ModelDB1.php" afterPath="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/models/ModelDB1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/models/ModelDB2.php" afterPath="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/models/ModelDB2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/models/ModelDB2.php" afterPath="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/models/ModelDB2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/template_files/ModelMain_page_show-all.html" afterPath="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/template_files/ModelMain_page_show-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_applications/demo/root_user_files/template_files/ModelMain_page_show-all.html" afterPath="$PROJECT_DIR$/user_applications/demo/root_user_files/template_files/ModelMain_page_show-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_[place_modules_here]_for_the_users/Security.php" afterPath="$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_[place_modules_here]_for_the_users/Security.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/user_classes/UserClass.php" afterPath="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/user_classes/UserClass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/user_classes/UserClass.php" afterPath="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/user_classes/UserClass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/build_magic_variables_in_general_object_with_stdclass.php" afterPath="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/build_magic_variables_in_general_object_with_stdclass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/build_root_path_var.php" afterPath="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/build_root_path_var.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/display.php" afterPath="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/display.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/display.php" afterPath="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/display.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/live_help.php" afterPath="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/live_help.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_engine_files/mvc_engine.php" afterPath="$PROJECT_DIR$/mvc_engine_files/mvc_engine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/routes_processor.php" afterPath="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/routes_processor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/show-all.php" afterPath="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/show-all.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/user_configuration_files/website_settings.json" afterPath="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/user_configuration_files/website_settings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_applications/demo/user_configuration_files/website_settings.json" afterPath="$PROJECT_DIR$/user_applications/demo/user_configuration_files/website_settings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="mvc_with_templates_onecontroller_many_objects_many_views_manytriads_no_third_party_code.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/to_combine.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1372975905338" ignored="false" />
@@ -13,11 +36,11 @@
     <file path="/ViewDB2.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373820260736" ignored="false" />
     <file path="/autoload.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373164946772" ignored="false" />
     <file path="/main.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373815006467" ignored="false" />
-    <file path="/a.dummy" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373826226180" ignored="false" />
+    <file path="/a.dummy" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373999945822" ignored="false" />
     <file path="/mvc_framework.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373314557676" ignored="false" />
-    <file path="/Security.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373156263834" ignored="false" />
-    <file path="/ModelDB1.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373135010959" ignored="false" />
-    <file path="/ModelDB2.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373130429246" ignored="false" />
+    <file path="/Security.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374002781385" ignored="false" />
+    <file path="/ModelDB1.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373999134049" ignored="false" />
+    <file path="/ModelDB2.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373999563643" ignored="false" />
     <file path="/autoload_paths.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373126259674" ignored="false" />
     <file path="/routes.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373126521569" ignored="false" />
     <file path="/autoload_paths.json" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373115427499" ignored="false" />
@@ -38,7 +61,7 @@
     <file path="/URL_processor.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373653741844" ignored="false" />
     <file path="/root_user_files_depth.json" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373202143812" ignored="false" />
     <file path="/.htaccess" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373393535800" ignored="false" />
-    <file path="/routes_processor.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373798301104" ignored="false" />
+    <file path="/routes_processor.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374001744489" ignored="false" />
     <file path="/javascript.js" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373486096269" ignored="false" />
     <file path="/ModelDB.5.template.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373228042256" ignored="false" />
     <file path="/routes.json" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373228075119" ignored="false" />
@@ -59,26 +82,24 @@
     <file path="/manage-applications.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373825317878" ignored="false" />
     <file path="/HTML.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373715820068" ignored="false" />
     <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/load_concatenated_css_files_from_the_one_css_file/all-v.3.css" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373477302482" ignored="false" />
-    <file path="/mvc_engine.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373712318926" ignored="false" />
+    <file path="/mvc_engine.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374083185888" ignored="false" />
     <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/load_concatenated_css_files_from_the_one_css_file/all-v.2.css" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373496139698" ignored="false" />
     <file path="/gzip_settings.json" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373479358102" ignored="false" />
-    <file path="/website_settings.json" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373743642675" ignored="false" />
+    <file path="/website_settings.json" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373997453692" ignored="false" />
     <file path="/javascript_and_css_concatenator_settings.json" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373483276367" ignored="false" />
     <file path="/user_classes_autoload_paths.json" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373483406960" ignored="false" />
     <file path="/autoload_paths_of_mvc_engine.json" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373483524322" ignored="false" />
-    <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/models/ModelDB1.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373821058139" ignored="false" />
     <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/template_files/ModelDB1.1.html" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373568199704" ignored="false" />
-    <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/models/ModelMain.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373821058139" ignored="false" />
+    <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/models/ModelMain.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374095453043" ignored="false" />
     <file path="/Controller.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373491992757" ignored="false" />
     <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/template_files/ModelDB.5.html" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373494613986" ignored="false" />
     <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/cached_files/3.cache" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373568823424" ignored="false" />
-    <file path="/MetaProgramming.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373799642779" ignored="false" />
+    <file path="/MetaProgramming.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374001416426" ignored="false" />
     <file path="/ajax_pages.json" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373576831477" ignored="false" />
     <file path="/save.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373577096572" ignored="false" />
     <file path="/LiveHelp.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373799970510" ignored="false" />
-    <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/models/ModelDB2.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373821058139" ignored="false" />
     <file path="/build_magic_variables_in_general_object_with_stdclass.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373743890451" ignored="false" />
-    <file path="/live_help.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373800342357" ignored="false" />
+    <file path="/live_help.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374003153010" ignored="false" />
     <file path="/ModelDB.4.html" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373741553166" ignored="false" />
     <file path="/HTMLUtilities.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373716074198" ignored="false" />
     <file path="$PROJECT_DIR$/../templatetest/Template.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373742964058" ignored="false" />
@@ -100,28 +121,33 @@
     <file path="/mother.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373740112694" ignored="false" />
     <file path="/ModelDB.5.html" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373741752642" ignored="false" />
     <file path="/ModelDB2.3.html" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373809355474" ignored="false" />
-    <file path="/UserClass.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373747253999" ignored="false" />
+    <file path="/UserClass.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374083107882" ignored="false" />
     <file path="/user_function.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373747305848" ignored="false" />
     <file path="/user_php.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373747626510" ignored="false" />
     <file path="$PROJECT_DIR$/../templatetest/View.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373808388828" ignored="false" />
     <file path="$PROJECT_DIR$/../templatetest/ViewB.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373750720772" ignored="false" />
     <file path="/ViewB.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373750056281" ignored="false" />
     <file path="/MethodAdder.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373793342526" ignored="false" />
-    <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/views/ViewMain.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373821058139" ignored="false" />
+    <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/views/ViewMain.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374095453043" ignored="false" />
     <file path="/TemplateVars.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373798780210" ignored="false" />
     <file path="/user_require_files_autoload.json" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373803382669" ignored="false" />
     <file path="/ModelMain_mother.html" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373803910889" ignored="false" />
     <file path="/ModelMain_child2.html" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373804019565" ignored="false" />
     <file path="/ModelMain_child1.html" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373804033351" ignored="false" />
-    <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/views/ViewDB1.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373818288520" ignored="false" />
+    <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/views/ViewDB1.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373992074470" ignored="false" />
     <file path="/ModelDB1.2.html" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373805911108" ignored="false" />
     <file path="/TemplateMain.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373808070871" ignored="false" />
     <file path="$PROJECT_DIR$/../templatetest/TemplateMain.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373808763710" ignored="false" />
-    <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/views/ViewDB2.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373821058139" ignored="false" />
-    <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/views/ViewDB3.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373814913353" ignored="false" />
-    <file path="/display.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373815132249" ignored="false" />
-    <file path="/show-all.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373815455786" ignored="false" />
-    <file path="/README.TXT" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373822399054" ignored="false" />
+    <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/views/ViewDB2.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373992074470" ignored="false" />
+    <file path="$PROJECT_DIR$/user_applications/demo/root_user_files/php_files/MVC/views/ViewDB3.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373992074470" ignored="false" />
+    <file path="/display.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374000481866" ignored="false" />
+    <file path="/show-all.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374182281355" ignored="false" />
+    <file path="/README.TXT" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373990991078" ignored="false" />
+    <file path="/MVC_ENGINE.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1373998519601" ignored="false" />
+    <file path="/Validation.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374002922822" ignored="false" />
+    <file path="/ModelMain_page_show-all.html" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374092173834" ignored="false" />
+    <file path="/build_root_path_var.php" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374096715538" ignored="false" />
+    <file path="/Dummy.txt" changelist="f4cf8c51-5cdb-419f-b3c8-d19a9d5f329a" time="1374183054312" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,19 +167,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="manage-applications.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage-applications.php">
+      <file leaf-file-name="show-all.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/show-all.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="5" selection-start="2438" selection-end="2438" vertical-scroll-proportion="-0.6923077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="website_settings.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/user_configuration_files/website_settings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="38" selection-start="362" selection-end="362" vertical-scroll-proportion="0.4214876">
+            <state line="21" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.5488372">
               <folding />
             </state>
           </provider>
@@ -166,25 +183,33 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/views/ViewDB1.php" />
-        <option value="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/live_help.php" />
-        <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/views/ViewDB3.php" />
-        <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/template_files/ModelMain.html" />
-        <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/main.php" />
+        <option value="$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_it_self/MVC_ENGINE.php" />
+        <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/models/ModelDB1.php" />
+        <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/models/ModelDB2.php" />
         <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/display.php" />
+        <option value="$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_[place_modules_here]_for_the_users/Security.php" />
+        <option value="$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_[place_modules_here]_for_the_users/Validation.php" />
+        <option value="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/live_help.php" />
+        <option value="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/routes_processor.php" />
+        <option value="$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_it_self/MetaProgramming.php" />
+        <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/user_classes/UserClass.php" />
+        <option value="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/build_magic_variables_in_general_object_with_stdclass.php" />
         <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/template_files/ModelMain_page_show-all.html" />
-        <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/show-all.php" />
-        <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/user_configuration_files/template_files.json" />
-        <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/views/ViewDB2.php" />
-        <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/views/ViewMain.php" />
-        <option value="$PROJECT_DIR$/README.TXT" />
-        <option value="$PROJECT_DIR$/manage-applications.php" />
-        <option value="$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_it_self/Template.php" />
-        <option value="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/set_pages.php" />
         <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/user_configuration_files/website_settings.json" />
+        <option value="$PROJECT_DIR$/mvc_engine_files/mvc_engine.php" />
+        <option value="$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/build_root_path_var.php" />
+        <option value="$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/show-all.php" />
       </list>
     </option>
   </component>
@@ -195,7 +220,7 @@
     <option name="width" value="1616" />
     <option name="height" value="854" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -267,7 +292,91 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="third_party_libraries_of_mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_with_templates_onecontroller_many_objects_many_views_manytriads_no_third_party_code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="third_party_libraries_of_mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHPLiveX-2.6-tr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_with_templates_onecontroller_many_objects_many_views_manytriads_no_third_party_code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="include_procedural_code_of_mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_with_templates_onecontroller_many_objects_many_views_manytriads_no_third_party_code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes_of_mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes_of_mvc_engine_it_self" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_with_templates_onecontroller_many_objects_many_views_manytriads_no_third_party_code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes_of_mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes_of_mvc_engine_[place_modules_here]_for_the_users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -435,6 +544,150 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="user_classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_with_templates_onecontroller_many_objects_many_views_manytriads_no_third_party_code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archetype_applications_of_mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="root_user_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_with_templates_onecontroller_many_objects_many_views_manytriads_no_third_party_code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archetype_applications_of_mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="root_user_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_with_templates_onecontroller_many_objects_many_views_manytriads_no_third_party_code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archetype_applications_of_mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="root_user_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_with_templates_onecontroller_many_objects_many_views_manytriads_no_third_party_code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archetype_applications_of_mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="root_user_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="include_procedural_code_of_pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -476,6 +729,28 @@
               <option name="myItemId" value="include_procedural_code_of_pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_with_templates_onecontroller_many_objects_many_views_manytriads_no_third_party_code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_engine_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archetype_applications_of_mvc_engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -483,14 +758,30 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="190" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="219" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="213" />
     <property name="options.lastSelected" value="editor.preferences.tabs" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../templatetest" />
-    <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="220" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="887" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="895" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="213" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="211" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -533,26 +824,32 @@
       <created>1372975696543</created>
       <updated>1372975696543</updated>
     </task>
+    <task id="LOCAL-00001" summary="echoing &quot;TEST!!&quot;. Just trying to get total commander to compare the mvc_engines.">
+      <created>1374183072619</created>
+      <updated>1374183072619</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="854" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4028777" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3899614" sideWeight="0.5971223" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43436295" sideWeight="0.6700143" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285968" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4028777" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -600,7 +897,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="echoing &quot;TEST!!&quot;. Just trying to get total commander to compare the mvc_engines." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -614,110 +911,94 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="echoing &quot;TEST!!&quot;. Just trying to get total commander to compare the mvc_engines." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/models/ModelMain.php">
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/models/ModelDB1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="0.29082426" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/models/ModelDB2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/controllers/ControllerDB.php">
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_[place_modules_here]_for_the_users/Security.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/template_files/ModelDB1.1.html">
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_[place_modules_here]_for_the_users/Validation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/display.php">
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/live_help.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.07931571" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/routes_processor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_it_self/MetaProgramming.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="49" selection-start="1696" selection-end="1696" vertical-scroll-proportion="0.026984127" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/user_classes/UserClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="267" selection-end="267" vertical-scroll-proportion="0.31726283" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/build_magic_variables_in_general_object_with_stdclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.53968257" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/template_files/ModelMain_page_show-all.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.053968254" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_it_self/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/template_files/ModelMain_mother.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/views/ViewDB2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1116" selection-end="1116" vertical-scroll-proportion="-0.26825398" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/MVC/views/ViewMain.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="42" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.5587302" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.TXT">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.076233186">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage-applications.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="5" selection-start="2438" selection-end="2438" vertical-scroll-proportion="-0.6923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="1.0575428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/template_files/ModelMain.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="445" selection-end="445" vertical-scroll-proportion="-0.36474165">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_engine_files/classes_of_mvc_engine/classes_of_mvc_engine_it_self/Template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="366" selection-end="366" vertical-scroll-proportion="0.3553719">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/set_pages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="25" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.5151515">
-          <folding>
-            <marker date="1373826706049" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1373826706049" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1373826706049" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="28" column="55" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.6761905" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/user_configuration_files/website_settings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="362" selection-end="362" vertical-scroll-proportion="0.4214876">
+        <state line="14" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.37013996" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/mvc_engine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="43" selection-start="4293" selection-end="4293" vertical-scroll-proportion="0.026984127" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/include_procedural_code_of_mvc_engine/build_root_path_var.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="887" selection-end="887" vertical-scroll-proportion="0.75714284" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_engine_files/archetype_applications_of_mvc_engine/demo/root_user_files/php_files/include_procedural_code_of_pages/normal/show-all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.5488372">
           <folding />
         </state>
       </provider>

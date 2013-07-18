@@ -18,11 +18,11 @@ class ModelDB2
     {
         $this->arr = array ("Value4 <br/>& array.", "Value5");
 
-        $this->arr = Security::sanitizeSystemDataForHTMLOutput($this->arr);
+        $this->arr = MVC_ENGINE::Run('Security', 'sanitizeSystemDataForHTMLOutput', array($this->arr));
 
         $this->string2 = "Value6";
 
-        $this->string2 = Security::sanitizeSystemDataForHTMLOutput($this->string2);
+        $this->string2 = MVC_ENGINE::Run('Security', 'sanitizeSystemDataForHTMLOutput', array($this->string2));
     }
 
 }

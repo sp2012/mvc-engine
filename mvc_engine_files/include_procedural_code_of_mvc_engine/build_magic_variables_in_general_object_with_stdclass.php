@@ -22,3 +22,7 @@ $create_remember_dynamically_added_variables_and_methods->addAndrememberNameOfDy
     ($pass_class, $general_object->content_for_pages['php_path_to_user_include_php_files'], $website_settings_array[10] . '/', $general_object->content_for_pages);
 
 
+$general_object->content_for_pages['object_redbean'] = $redbean_object;
+
+
+$general_object->content_for_pages['object_phplivex'] = $phplivex_ajax_object;

@@ -14,8 +14,12 @@ if($website_settings_array[8] == true)
 $MVC_ENGINE = '$MVC_ENGINE_';
 
 //Gather all HTML;
-HTML::$gather_all_html = "<div style='background-color:white; color:black; border: solid 1'>\n";
 
+
+
+HTML::$gather_all_html .= "<div style='background-color:white; color:black; border: solid 1'>\n";
+
+HTML::$gather_all_html .= "<p><b>Live Help</b></p><br/>";
 
 HTML::$gather_all_html .= "<p style='color:red'>Classes available to you are:</p>";
 
@@ -27,7 +31,10 @@ $scanned_directory = array_diff(scandir($directory), array('..', '.'));
 foreach($scanned_directory as $item)
 {
 
-    HTML::$gather_all_html .= "<p><li>" . substr($item, 0, -4) . "</li></p>\n";
+    $class_for_users_name = substr($item, 0, -4);
+
+    HTML::$gather_all_html .= "<p><li>" . $class_for_users_name . ": " .
+        $create_remember_dynamically_added_variables_and_methods->showPublicMethodsOnlyAndTheirArgs($class_for_users_name) .  "</li></p>\n";
 
 }
 

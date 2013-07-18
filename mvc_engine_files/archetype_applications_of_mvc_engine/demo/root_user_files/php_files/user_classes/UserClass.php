@@ -19,4 +19,10 @@ class UserClass
     }
 
 
+    public function generateRandomCode($length){
+        $chars = array("1","2","3","4","5","6","a","b","c","d","e","f");
+        $code = array_rand(array_flip($chars), $length);
+        return implode($code);
+    }
+
 }

@@ -21,15 +21,15 @@ class ModelDB1
 
         $this->arr = array ("Value1 <br/>& array.", "Value2");
 
-        $this->arr = Security::sanitizeSystemDataForHTMLOutput($this->arr);
+        $this->arr = MVC_ENGINE::Run('Security', 'sanitizeSystemDataForHTMLOutput', array ($this->arr));
 
         $this->string1 = "Value3";
 
-        $this->string1 = Security::sanitizeSystemDataForHTMLOutput($this->string1);
+        $this->string1 = MVC_ENGINE::Run('Security', 'sanitizeSystemDataForHTMLOutput', array ($this->string1));
 
         $this->number = 5;
 
-        $this->number = Security::sanitizeSystemDataForHTMLOutput($this->number);
+        $this->number = MVC_ENGINE::Run('Security', 'sanitizeSystemDataForHTMLOutput', array ($this->number));
 
     }
 

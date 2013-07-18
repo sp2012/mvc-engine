@@ -8,7 +8,7 @@
     "log_file_name": "application",
     "project_name": "demo",
     "enable_tidy_html5_validation": "0",
-    "enable_show_auto_created_variables_and_methods" : "1",
+    "enable_live_help_show_auto_created_variables_and_methods" : "1",
     "path_to_user_functions" : "php_files/user_functions",
     "path_to_user_include_php_files" : "php_files/user_include_procedural_code_php_files"
 

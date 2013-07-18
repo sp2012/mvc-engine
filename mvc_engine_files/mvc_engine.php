@@ -26,12 +26,27 @@ function run()
         if($website_settings_array[3] == false)
         {
 
+        ini_set('display_errors', 'Off');
         error_reporting(0);
 
     }
     else
     {
-        error_reporting(E_ALL);
+        ini_set('display_errors', 'Off');
+        error_reporting(0);
+
+        function shutdown_error_handler() {
+
+            if (null !== $error = error_get_last())
+            {
+                echo "<div style='background-color: white;color:red;border: solid 1;'>" .
+                ($error['message'] . $error['type'] . $error['file'] . $error['line'])
+                . "</div>";
+            }
+
+        }
+
+        register_shutdown_function('shutdown_error_handler');
 
         function alert_errors($errno, $errstr, $errfile, $errline){
 
@@ -85,6 +100,14 @@ function run()
     require_once('third_party_libraries_of_mvc_engine/geshi/geshi.php');
 
 
+    require_once('third_party_libraries_of_mvc_engine/RedBeanPHP3_4_7/rb.php');
+
+    R::setup('sqlite:../serverless_databases/website.sqlitedb'); // -- for other systems
+    $toolbox = R::$toolbox;
+    $redbean_object = $toolbox->getRedBean();
+
+
+
 
 
     require "../../../mvc_engine_files/functions_of_mvc_engine/autoload.php";
@@ -97,6 +120,10 @@ function run()
 
     require "../../../mvc_engine_files/include_procedural_code_of_mvc_engine/build_root_path_var.php";
 
+
+    require_once('third_party_libraries_of_mvc_engine/PHPLiveX-2.6-tr/PHPLiveX.php');
+
+    $phplivex_ajax_object = new PHPLiveX();
 
     // Metaprogramming object.
     $create_remember_dynamically_added_variables_and_methods  = new MetaProgramming();
@@ -149,5 +176,8 @@ function run()
         exit();
 
     }
+
+
+
 
 }

@@ -37,3 +37,4 @@ foreach($get_variables['get_var'] as $var)
 
 $root_path = substr($root_path, 0, -3);
 
+$GLOBALS['root_path'] = $root_path;

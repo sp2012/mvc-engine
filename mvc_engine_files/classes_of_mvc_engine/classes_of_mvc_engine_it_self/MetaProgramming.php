@@ -74,7 +74,7 @@ class MetaProgramming {
                     LiveHelp::$gather_variable_names_added_dynamically_second_array[$class] = $value;  ;
                 }
 
-                else if($class === 'template_vars_object')
+                else if($class === 'template_vars')
                 {
 
                     $class =  "template->" . $class . "->" . $vname;
@@ -125,6 +125,56 @@ class MetaProgramming {
         LiveHelp::$gather_method_name_added_dynamically[] = $class . $method_name . "(" . $parameters . ")";
 
     }
+
+
+
+    public function createRememberClass($class_name, $triad_index)
+    {
+
+        LiveHelp::$gather_triads_MVC[$triad_index][] = $class_name . "_object";
+
+
+        return new $class_name;
+
+    }
+
+
+    public function reflectionCreateRememberClass($class_name, $triad_index)
+    {
+
+        LiveHelp::$gather_triads_MVC[$triad_index][] = $class_name . "_object";
+
+
+        return new ReflectionClass($class_name);
+
+    }
+
+
+    public function showPublicMethodsOnlyAndTheirArgs($classname)
+    {
+//Show public methods only and their parameters of Classes available to the user.
+//Put the snippet under the code where you show Classes available to the user:
+
+
+        $reflection = new ReflectionClass($classname);
+
+        $public_methods_and_their_args = "";
+
+
+        foreach ($reflection->getMethods(ReflectionMethod::IS_PUBLIC) as $method)
+        {
+
+            $public_methods_and_their_args .= "" . $method . "<br/> ";
+
+
+        }
+
+
+        return $public_methods_and_their_args;
+
+    }
+
+
 
 
 

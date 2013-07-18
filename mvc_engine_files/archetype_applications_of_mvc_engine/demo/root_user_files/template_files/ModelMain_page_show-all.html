@@ -24,4 +24,12 @@
     <script type="text/javascript" src="<?=$this->template_vars->root_path?>js_files/js_custom/javascript.js"></script>
 
 
+    <input onclick="generateRandomCode(10, {target:'rcode', preloader:'pr'});"
+           type="button" value="Generate Random Code" >
+    <span id="pr" style="visibility:hidden;"><i>Working...</i></span>
+    <span id="rcode"></span>
+
+
+
+
 </div>
